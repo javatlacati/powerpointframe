@@ -56,6 +56,12 @@ public class PowerPointToPanel extends javax.swing.JFrame {
     private List<SlideComponent> sliderComponents = new ArrayList<>();
     private int currentSlide = -1;
 
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private JButton jButton1;
+    private JPanel jPanel1;
+    private JScrollPane jspanel;
+    // End of variables declaration//GEN-END:variables
+
     /**
      * Creates new form PowerPointToPanel
      */
@@ -141,11 +147,7 @@ public class PowerPointToPanel extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private JButton jButton1;
-    private JPanel jPanel1;
-    private JScrollPane jspanel;
-    // End of variables declaration//GEN-END:variables
+
 
     private void loadPresentation() {
         JFileChooser fileChooser = new JFileChooser();
